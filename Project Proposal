@@ -1,0 +1,116 @@
+De La Salle University - Manila
+Term 3, A.Y. 2022-2023
+In partial fulfillment
+of the course
+in LBYCPEI (EQ3)
+FlashQuiz: Enhancing Students’ Self-Study Capabilities for Quality Education
+Submitted by:
+Baltazar, Andrei Sebastian P.
+Bañas, Hanz Mikhail V.
+Bernasol, Jerico Joir V.
+Submitted to:
+Ramon Stephen Ruiz
+June 26, 2023
+I. Introduction
+Our project is proposed to be a program that allows users to create flashcards for them to
+be able to quiz themselves with or help them (or their friends) review. The program allows the
+user to answer a quiz based on the flashcards they create, and keeps track of how well they do
+using a score calculator. The goal of our project is to aid students who struggle to retain
+information well after learning certain topics or lessons, as well as those who want to create
+study materials based on the notes or information they have taken. Our project aims to be able to
+help these students by creating a fun and interactive way to enhance their knowledge of what
+they have already learned through the quiz system. A competitive aspect would also be added in
+the form of a leaderboard for users to compete with each other for a high score. Some constraints
+of the project so far would be the graphic aspect of the program.
+II. Methodology
+We plan on implementing the program using multiple functions, such as ones for
+flashcard creation, quiz functionality, score calculation, main menu, etc. The Java pillars can be
+implemented into the program as follows:
+- Encapsulation: A flashcard class can be created that encapsulates the questions and
+answers that are input by the user. Private instance variables, getters, and setters can be
+used to access and modify flashcard data.
+- Inheritance: This can be implemented in the form of multiple classes, e.g. a parent
+“Card” class that contains common properties shared by multiple types of cards, then a
+child class such as “Flash” or “MultipleChoice” that contains the features of the parent
+class, each with their own distinct additional Features.
+- Polymorphism: In the program, this can be implemented by creating methods such as
+‘checkAns()’ or ‘displayQues’ which can be implemented by any other card type class.
+- Abstraction: Abstract classes can be defined in order to represent general items such as
+“Card” or “QuizItem” and can declare common methods required by all card types and
+quiz items.
+Some major milestones of our project include: A functional layout (main menu, user
+interface), functional flashcards that store user-inputted information and data, a functional
+quiz-type minigame using information obtained from flashcards, and a scoreboard that stores
+high scores from the quiz attempts.
+III. Project Description
+IPO Diagram
+1. Input
+a. Users choose from the menu to create flashcards, start quizzes, and access
+leaderboards
+b. User's flashcard input (question and answer pairs)
+c. User's quiz answers
+2. Process
+a. Flashcard Creation: Processing and storing the user's flashcard input.
+b. Quiz Generation: Selecting random flashcards for the quiz.
+c. Answer Evaluation: Checking the user's quiz answers for correctness.
+d. Score Calculation: Calculating and updating the user's score based on the quiz
+performance.
+3. Output
+a. Flashcards: Displaying the created flashcards.
+b. Quiz Questions: Presenting questions based on the flashcards.
+c. Quiz Results: Providing feedback on the user's answers (correct/incorrect).
+d. Score: Displaying the user's score after each quiz.
+Flowchart
+HawkMan LBYCPEI-EQ3 Project Proposal
+UML Diagram
+IV. Deliverables
+Gantt Diagram
+Task Responsible Duration Deadline
+Project Planning Hawkman Team Before june 26, 2023
+Final Project Proposal Hawkman Team June 26, 2023
+Coding Hawkman Team June 26-Jul 24, 2023
+Project/Document Review Hawkman Team July 10, 2023
+Demonstration Hawkman Team July 24, 2023
+Project Submission Hawkman Team July 31, 2023
+Document Description:
+1. User Manual: This document will provide step-by-step instructions on how to use the
+FlashQuiz program. It will include detailed explanations of each functionality, such as
+flashcard creation, quiz taking, and score calculation. The user manual will assist users in
+maximizing their experience with the program.
+2. Technical Document: The technical document will contain detailed information about the
+architecture, design, and implementation of the FlashQuiz program. It will provide
+insights into the program's underlying technologies, algorithms, and data structures. This
+document will aid developers in understanding the program's internals and allow for
+future enhancements or modifications.
+3. API Documentation: If applicable, API documentation will be provided, detailing any
+external APIs or libraries used in the development of the FlashQuiz program. It will
+include information on how to integrate and interact with these APIs, enabling developers
+to extend the functionality of the program if desired.
+V. Evaluation
+The criteria that will be used for the development of the program will be as
+follows. The first and most important criterion would be whether the program that was
+developed would run as intended and meet all the proposed features. The next step would
+be to see if the program and its code are presentable, specifically if they're understandable
+and easy to read. Another would be if the user could get an engaging experience from the
+program.
+VI. Conclusion
+In conclusion, our proposed project is a user-friendly program designed to assist
+students in improving their retention of information and creating effective study
+materials. By utilizing a flashcard-based quiz system, our program aims to provide an
+engaging and interactive learning experience. With the integration of a score calculator,
+users can track their progress and identify areas that require further focus. Furthermore,
+the inclusion of a leaderboard adds a competitive element, motivating users to strive for
+higher scores and encouraging friendly competition among peers. While the graphical
+aspect of the program presents a constraint at this stage, our primary focus remains on
+creating an efficient and effective tool to aid students in their learning journey. With these
+features and objectives in mind, our project endeavors to enhance students' knowledge
+and make the learning process more enjoyable and productive, all this while having
+implemented the knowledge and skills we have learned in object oriented programming.
+VII. References
+● Farrell, J. (2018). MindTap Programming, 2 terms (12 months) Printed Access Card for
+Farrell's Java Programming, 9th.
+● Dong, C., & Liu, X. (2013). Development of android application for language studies.
+IERI Procedia, 4, 8-16.
+● Houser, C., & Thornton, P. (2005, November). Poodle: a course-management system for
+mobile phones. In IEEE International Workshop on Wireless and Mobile Technologies in
+Education (WMTE'05) (pp. 5-pp). IEEE.
