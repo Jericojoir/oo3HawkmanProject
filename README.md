@@ -1,7 +1,7 @@
 # oo3HawkmanProject
 Team Leader: Hanz Bañas
 
-Members: Andre Balatzar, Jerico Bernasol
+Members: Andrei Balatzar, Jerico Bernasol
 
 Section: EQ3
 
